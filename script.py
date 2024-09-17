@@ -119,8 +119,8 @@ def combine_text_files(output_text_prefix, num_pages, combined_output_file):
 
 if __name__ == "__main__":
     # Define file paths and prefixes
-    pdf_file = "3.0_Redacted.pdf"
-    output_image_prefix = "3.0_Redacted"
+    pdf_file = "3.0_Redacted.pdf"                                                     # file name 
+    output_image_prefix = "3.0_Redacted"                                              # outfile name
     output_text_prefix = "ocr_output"
     temp_pdf_prefix = "temp_searchable"
     combined_text_file = "combined_text_output.txt"
